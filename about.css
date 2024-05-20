@@ -1,0 +1,37 @@
+body{
+    position: absolute;
+    background-image: url('./res/forest_girl.jpg');
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+.about-us{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    /* background-color: rgba(255, 254, 254, 0.8); */
+}
+.frosted-glass{
+    margin:50px;
+    border: 2px ridge black;
+    padding: 5px;
+    text-justify: distribute;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 254, 254, 0.3);
+    font-family: fantasy;
+    font-size: x-large;
+}
+*{
+    box-sizing: border-box;
+}
+
